@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <title>QR Code Solution using Flexbox</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 12px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    html {
+      font-size: 19px;
+      overflow: hidden;
+    }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(214, 225, 240);
+      height: 100vh;
+      width: 100vw;
+    }
+
+    .card {
+      width: fit-content;
+      height: auto;
+      background-color: hsl(181, 61%, 99%);
+      border-radius: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin: 10px;
+      box-shadow: 0 8px 25px -21px rgb(54, 54, 54);
+    }
+
+    img {
+      border-radius: 8px;
+      margin: 14px 14px 20px 14px;
+    }
+
+    .title {
+      font-weight: 700;
+      line-height: 1.29rem;
+      font-size: 1.05rem;
+      width: 19ch;
+      margin-bottom: 14px;
+      color: rgb(64, 63, 66);
+    }
+
+    .subs {
+      font-weight: 400;
+      width: 26ch;
+      font-size: 0.73rem;
+      color: gray;
+      margin-bottom: 36px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <img src="../qr-code-component-main/images/image-qr-code.png" alt="QR-Code" height="257rem">
+    <div class="title">
+      Improve your front-end skills by building projects
+    </div>
+    <div class="subs">
+      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Shivansh Singh</a>.
+  </div>
+</body>
+
+</html>
